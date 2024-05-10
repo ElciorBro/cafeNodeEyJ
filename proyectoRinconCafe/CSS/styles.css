@@ -1,0 +1,85 @@
+/* Estilos Generales */
+
+body{
+  /*background: url('../IMG/fondo2.jpg') center/cover no-repeat;*/
+  background-color: #faebd7;
+}
+
+/* Variables */
+:root {
+  /* Los colores mientras mas bajo el numero mas oscuro es */
+  --bordo: #6f1d1b;
+  --marron-1: #432818;
+  --marron-2: #99582A;
+  --marron-3: #bb9457;
+  --marron-4: #ffe6a7;
+  --verde-1: #9b7e46;
+  --verde-2: #afd0bf;
+  --verde-3: #e2efde;
+  --negro: #000000;
+  --blanco: #ffffff;
+}
+
+
+
+
+
+/* Animaciones */
+
+
+
+/* Reglas Responsives (media queries) */
+
+
+
+
+/* Barra de Navegacion (navbar) */
+.navbar-custom {
+
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+}
+
+.navbar-nav a , .navbar-brand {
+  color: #ffffff;
+}
+
+
+/* Secion de Noticias */
+
+.noticia {
+  display: flex;
+  align-items: center;
+}
+  
+.contenido {
+  flex: 1;
+  padding: 20px;
+}
+  
+.contenido h2 {
+  margin-bottom: 10px;
+  color: brown;
+}
+  
+.contenido p {
+  margin-bottom: 15px;
+  color: brown;
+}
+
+.noticia img {
+  max-width: 40%;
+}
+
+
+/* footer pie de pagina */
+
+.footer-section {
+  padding: 10px 20px;
+  background-color: #bb9457;
+
+}
+
+
