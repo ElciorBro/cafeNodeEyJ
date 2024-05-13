@@ -76,6 +76,11 @@ body{
 
 /* footer pie de pagina */
 
+.container-suscripcion {
+  background-color: #e2cda9;
+  padding: 3%;
+}
+
 .footer-section {
   padding: 10px 20px;
   background-color: #bb9457;
