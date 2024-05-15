@@ -48,32 +48,32 @@ body{
 }
 
 
-/* Secion de Noticias */
+/*--------------------------------SECCION NOTICIAS -----------------------------------------------------------------*/
 
 .noticia {
   display: flex;
   align-items: center;
+  padding: 0% 5%;
 }
-  
+
 .contenido {
   flex: 1;
-  padding: 20px;
 }
-  
+
 .contenido h2 {
   margin-bottom: 10px;
-  color: brown;
+  color: #432818;
 }
-  
-.contenido p {
-  margin-bottom: 15px;
-  color: brown;
-}
+
+.contenido a {
+  background-color: #631a19;
+ }
 
 .noticia img {
-  max-width: 40%;
+  max-width: 50%;
+  height: auto;  
+  padding: 3%;
 }
-
 
 /* Seccion Productos */
 
