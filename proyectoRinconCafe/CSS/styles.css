@@ -259,10 +259,9 @@ body {
 
 
 /*------------ Pagina de login / sigin up ---------------------------*/
-/*.container-access  a  {
-    background-color: #631a19;
-}*/
-
+.container-access {
+  padding: 130px;
+}
 .card {
   border: none;
   border-radius: 10px;
@@ -282,6 +281,8 @@ body {
   .card {
     padding: 1rem;
   }
+  
+
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
