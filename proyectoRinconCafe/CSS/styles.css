@@ -296,3 +296,17 @@ body {
     padding: 3rem;
   }
 }
+
+
+
+/*------------------------Para Pagina Contacto----------------------------------------------------*/
+ .form-check-input , .form-control{
+  border-color: #4328186c;
+ }
+
+ .container-contact {
+  padding: 130px;
+ }
+
+
+ 
