@@ -1,6 +1,6 @@
 /* Estilos Generales */
 
-body{
+body {
   /*background: url('../IMG/fondo2.jpg') center/cover no-repeat;*/
   background-color: #faebd7;
 }
@@ -252,4 +252,46 @@ body{
   padding: 10px 20px;
   background-color: #bb9457;
 
+}
+
+
+
+
+
+/*------------ Pagina de login / sigin up ---------------------------*/
+/*.container-access  a  {
+    background-color: #631a19;
+}*/
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  margin-bottom: 1.5rem;
+  color: #432818;
+}
+
+.form-label {
+  color: #432818;
+}
+
+@media (max-width: 576px) {
+  .card {
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .card {
+    padding: 2rem;
+  }
+}
+
+@media (min-width: 769px) {
+  .card {
+    padding: 3rem;
+  }
 }
