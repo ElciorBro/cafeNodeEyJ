@@ -254,8 +254,17 @@ body {
 
 }
 
+.seccion-nosotros {
+  margin-top: 100px; /* Aumenta la separación de la imagen principal */
+  padding: 20px; /* Añade un poco de padding */
+}
 
-
+.seccion-mapa iframe {
+  width: 100%; /* Ancho del mapa ajustado */
+  height: 300px; /* Altura del mapa ajustado */
+  max-width: 600px; /* Ancho máximo del mapa */
+  margin: 0 auto; /* Centrar el mapa horizontalmente */
+  display: block; /* Asegurar que el iframe se comporte como un bloque */
 
 
 /*------------ Pagina de login / sigin up ---------------------------*/
